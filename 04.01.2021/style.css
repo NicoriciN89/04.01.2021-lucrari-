@@ -1,0 +1,72 @@
+body {
+    background-color: #444444
+}
+
+.tree {
+    border: 2px white solid;
+    width: 300px;
+    height: 700px;
+    position: fixed;
+    top: 25px;
+    right: 600px;
+
+}
+
+.tree.div {
+    font-size: 0;
+}
+
+.tree> :nth-child(1) {
+
+    border-bottom: 100px solid green;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: relative;
+
+}
+
+.tree> :nth-child(1)>.ball {
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 100%;
+
+    position: absolute;
+
+}
+
+.tree> :nth-child(1)>.ball:nth-child(1) {
+    position: absolute;
+    left: -20px;
+    top: 50px;
+}
+
+.tree> :nth-child(1)>.ball:nth-child(2) {
+    position: absolute;
+    top: 50px;
+
+}
+
+.tree> :nth-child(2) {
+    border-bottom: 100px solid green;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.tree> :nth-child(3) {
+    border-bottom: 100px solid green;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.tree> :nth-child(4) {
+    border-bottom: 100px solid green;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.tree> :nth-child(5) {
+    border-bottom: 100px solid green;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
